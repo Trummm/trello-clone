@@ -34,6 +34,10 @@ export async function create(prevState: State, formData: FormData) {
 
   try {
     await db.board.create({
+<<<<<<< HEAD
+=======
+      //@ts-ignore
+>>>>>>> main
       data: {
         title,
       },

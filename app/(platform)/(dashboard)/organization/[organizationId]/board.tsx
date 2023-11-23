@@ -14,6 +14,9 @@ const Board = ({ title, id }: BoardProps) => {
     <form action={deleteBoardWithId} className='flex items-center gap-x-2'>
       <p>Board title: {title}</p>
       <FormDelete />
+      <Button type='submit' variant='destructive' size='sm'>
+        Delete
+      </Button>
     </form>
   )
 }
